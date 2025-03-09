@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustav - Quiz</title>
+    <link href="../CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="notactivepage"><a href="./index.html">Startsida</a></li>
+                <li class="notactivepage"><a href="./presentation.html">Presentation</a></li>
+                <li class="notactivepage"><a href="./CV.html">CV</a></li>
+                <li class="notactivepage"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="activepage"><a href="./Quiz.html">Quiz</a></li>
+                <li id="easteregg"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section class="Quiz">  
+            <div class="subsection">
+                <div class="header">
+                    <img src="../IMAGES/bg.jpg" class="headerpic">  
+                    <h1>Gustav-Quiz</h1>
+                </div>    
+                
+                    <p>Let's see if you have learned anything about Gustav!</p>
+                
+                <article>
+                    <form action="#modalResult" method="get" oninput="x.value=parseInt(age.value)+0">
+                        <label for="age">Hur gammal är Gustav?</label>
+                       
+                        <input type="range" step="1" min="18" max="66" id="age" name="age" list="ages" />
+                            <datalist id="ages">
+                                <option value="18" label="18"></option>
+                                <option value="26"label="26"></option>
+                                <option value="34"label="34"></option>
+                                <option value="42" label="42"></option>
+                                <option value="50" label="50"></option>
+                                <option value="58" label="58"></option>
+                                <option value="66" label="66"></option>
+                            </datalist>
+                            <output name="x" for="a b"></output>    
+                        <label for="dogs">How many dobermanns hopped up in the air?</label>
+                        <select id="dogs" name="dogs">
+                            <option value="6">6</option>
+                            <option value="12">12</option>  
+                            <option value="18">18</option>
+                        </select>
+                        <label for="yesno">Is Gustav?</label>
+                        <fieldset id="yesno" name="isgustav">
+                            
+                            
+                            <input type="radio" id="yes" name="isgustav">
+                            <label for="yes" class="btn">Ja</label>
+                            
+                            <input type="radio" id="no" name="isgustav">
+                            <label for="no" class ="btn">Nej</label>
+                        </fieldset>
+                        <input type="submit" value="Skicka in dina svar!" />
+                        <input type="reset" value="Börja om!">
+
+                    </form>
+                </article>
+                <div id="modalResult">
+                    <div class="modal_window">
+                        <a class="modal_close" href="#">X</a>
+                        <h2>Resultat</h2>
+                        <p>Tyvärr blir det inga resultat innan jag lärt mig JavaScript :(</p>
+                    </div>
+                  </div> 
+            </div>  
+        </section>          
+    </main>
+    <script src="../JavaScript/easter.js"></script> 
+</body>
+</html>

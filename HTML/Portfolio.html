@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustav - Portfolio</title>
+    <link href="../CSS/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="notactivepage"><a href="./index.html">Startsida</a></li>
+                <li class="notactivepage"><a href="./presentation.html">Presentation</a></li>
+                <li class="notactivepage"><a href="./CV.html">CV</a></li>
+                <li class="activepage"><a href="./portfolio.html">Portfolio</a></li>
+                <li class="notactivepage"><a href="./Quiz.html">Quiz</a></li>
+                <li id="easteregg"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
+      <section class="portfolio" id="github">
+        <div class="header">
+          <img src="../IMAGES/bg.jpg" class="headerpic">  
+          <h1>Portfolio - Github</h1>
+        </div>
+        
+        <p id="mouseover">För musen över ett projekt för att få veta mer!</p>
+        <div class="loading"><p>Loading Github content...</p></div>
+        <div class="subsection" id="ghsubsection">
+
+        </div>
+      </section>
+      <section class="portfolio">
+        <div class="header">
+          <img src="../IMAGES/bg.jpg" class="headerpic">  
+          <h1>Portfolio - Projekt</h1>
+        </div>
+        
+        <p id="mouseover">För musen över ett projekt för att få veta mer!</p>        
+
+        <div class="subsection">
+          <button>
+            <a href="#modalBank">   
+              <article>
+                <div class="wrapper">
+                  <img src="../IMAGES/bank.jpg" alt= "picture of money" class="portfolioimage"> 
+                  <h3>TH-Bank</h3>     
+                  <p>TH-Bank är en Console-applikation utvecklad i C# och .NET tillsammans med hackergruppen Sith Lords.</p>
+                  <p>Klicka för att läsa mer!</p>   
+                </div>         
+              </article>        
+            </a>
+          </button> 
+          <button>
+            <a href="#modalSkol">  
+              <article>
+                <div class="wrapper">
+
+                  <img src="../IMAGES/school.jpg" alt ="picture of a scrabble board" class="portfolioimage">
+                  <h3>Skolplattformen</h3> 
+                  <p>Skolplattformen är en skoladministrations-app med databasfunktionalitet (SQL), utvecklad i C# .NET</p>
+                  <p>Klicka för att läsa mer!</p>   
+               </div>  
+              </article>   
+            </a>
+          </button>  
+          <button>
+            <a href="#modalTime"> 
+              <article>
+                <div class="wrapper">
+              
+                    <img src="../IMAGES/time.jpg" alt ="picture of a hour glass" class="portfolioimage">
+                    <h3>TimeTimer</h3>       
+                    <p>Time-Timer är en Tids-visualiserings-app för android, utvecklad i .NET Maui</p>
+                    <p>Klicka för att läsa mer!</p>   
+                </div>
+              </article> 
+            </a>
+          </button>    
+        </div>
+      </section>
+
+      <section class="popups">
+          <div id="modalBank">
+              <div class="modal_window">
+                  <a class="modal_close" href="#">X</a>
+                  <h2>TH-Bank</h2>
+                  <p>Fem gamlingar med en dröm...</p> 
+                  <a class="link" href="http://www.github.com/GoodStuff15/TH-Bank/" target="_blank"><p>Se projektet på GitHub</p></a>
+                  
+              </div>
+          </div>    
+          <div id="modalSkol">
+              <div class="modal_window">
+                  <a class="modal_close" href="#">X</a>
+                  <h2>Skolplattformen</h2>
+                  <p>Skoluppgift för SUT24</p>   
+                  <a class="link" href="http://www.github.com/GoodStuff15/Skolplattformen/" target="_blank"><p>Se projektet på GitHub</p></a>
+              </div>
+          </div> 
+          <div id="modalTime">
+              <div class="modal_window">
+                  <a class="modal_close" href="#">X</a>
+                  <h2>TimeTimer</h2>
+                  <p>Ett eget projekt baserat på ett populärt verktyg för skolungdomar med koncentrationssvårigheter</p>   
+                  <a class="link" href="http://www.github.com/GoodStuff15/TimeTimer/" target="_blank"><p>Se projektet på GitHub</p></a>
+          
+              </div>
+          </div>
+
+  </section>
+</main>
+  <footer>
+    <p>&copy Gustav Eriksson Söderlund 2025</p>
+  </footer> 
+  <script src="../JavaScript/portfolio.js" type="module"></script> 
+  <script src="../JavaScript/easter.js"></script> 
+</body>
+</html>

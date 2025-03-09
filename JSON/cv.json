@@ -1,0 +1,65 @@
+{
+    "arbeten": [
+
+        { "titel": "Ungdomsvägledare",
+          "arbetsköpare": "Laholms Kommun",
+          "tid": "2017-2020",
+          "beskrivning": "Här jobbade jag med jobb och annat! Jobbet jag gjode där gör att jag verkligen kan göra ett bra jobb på andra jobb i framtiden. Det lärde mig också om massa olika jobb och jag tog verkligen till mig jobbförmågor som kan komma till nytta på andra jobb. Jag var också väldigt lojal mot min arbetsgivare och vi skiljdes åt som vänner, egentligen gillar jag att stanna på ett jobb tills det inte finns något mer jobb på det jobbet."
+        },
+
+        { "titel": "Rastpedagog",
+          "arbetsköpare": "Veingeskolan",
+          "tid": "2022-2024",
+          "beskrivning": "Här jobbade jag med jobb och annat! Jobbet jag gjode där gör att jag verkligen kan göra ett bra jobb på andra jobb i framtiden. Det lärde mig också om massa olika jobb och jag tog verkligen till mig jobbförmågor som kan komma till nytta på andra jobb. Jag var också väldigt lojal mot min arbetsgivare och vi skiljdes åt som vänner, egentligen gillar jag att stanna på ett jobb tills det inte finns något mer jobb på det jobbet."
+        },
+
+        { "titel": "Mentor",
+          "arbetsköpare": "Lagaholmsskolan",
+          "tid": "2020-2022",
+          "beskrivning":"Här jobbade jag med jobb och annat! Jobbet jag gjode där gör att jag verkligen kan göra ett bra jobb på andra jobb i framtiden. Det lärde mig också om massa olika jobb och jag tog verkligen till mig jobbförmågor som kan komma till nytta på andra jobb. Jag var också väldigt lojal mot min arbetsgivare och vi skiljdes åt som vänner, egentligen gillar jag att stanna på ett jobb tills det inte finns något mer jobb på det jobbet."
+
+        }
+        
+
+    ],
+
+    "utbildningar": [
+            
+        { "titel": "Systemutvecklare .NET",
+        "lärosäte": "Campus Varberg",
+        "tid": "2024-2026",
+        "beskrivning": "Här pluggade jag ditten och datten. Då lärde jag mig både det ena och det andra, och det har jag verkligen användning för i mitt dagliga arbete."
+
+        },
+        
+        { "titel": "Psykologi inriktning Idrott",
+        "lärosäte": "Högskolan i Halmstad",
+        "tid": "2009-2012",
+        "beskrivning": "Här pluggade jag ditten och datten. Då lärde jag mig både det ena och det andra, och det har jag verkligen användning för i mitt dagliga arbete."
+
+        }
+
+    ],
+
+    "övrigt": [
+            
+        { "titel": "Habil trepoängsskytt",
+        "merinfo": "Halmstad Basket",
+        "beskrivning": "89 av 100 på träning."
+
+        },
+
+        { "titel": "Kan jonglera",
+        "merinfo": " ",
+        "beskrivning": "Bara med tre bollar dock."
+
+        }
+
+    ]
+
+
+
+
+
+
+}
